@@ -11,21 +11,18 @@ class TwelveDaysTest < Minitest::Test
   end
 
   def test_another_line
-    skip
     expected =
       "Two turtle doves"
     assert_equal expected, TwelveDays.new.line(2)
   end
 
   def test_a_third_line
-    skip
     expected =
       "Three french hens"
     assert_equal expected, TwelveDays.new.line(3)
   end
 
   def test_verse_1
-    skip
     expected =
       "On the first day of Christmas my true love sent to me\n" +
       "A partridge in a pear tree.\n"
@@ -33,7 +30,6 @@ class TwelveDaysTest < Minitest::Test
   end
 
   def test_verse_2
-    skip
     expected =
     "On the second day of Christmas my true love sent to me\n" +
     "Two turtle doves, and\n" +
@@ -42,17 +38,15 @@ class TwelveDaysTest < Minitest::Test
   end
 
   def test_verse_3
-    skip
     expected =
     "On the third day of Christmas my true love sent to me\n" +
     "Three french hens\n" +
     "Two turtle doves, and\n" +
     "A partridge in a pear tree.\n"
-    assert_equal expected, TwelveDays.new.verse(2)
+    assert_equal expected, TwelveDays.new.verse(3)
   end
 
   def test_a_couple_verses
-    skip
     expected =
     "On the first day of Christmas my true love sent to me\n" +
     "A partridge in a pear tree.\n" +
@@ -64,7 +58,6 @@ class TwelveDaysTest < Minitest::Test
   end
 
   def test_a_few_verses
-    skip
     expected =
     "On the first day of Christmas my true love sent to me\n" +
     "A partridge in a pear tree.\n" +
@@ -82,7 +75,6 @@ class TwelveDaysTest < Minitest::Test
   end
 
   def test_the_whole_song
-    skip
     expected = <<~SONG
     On the first day of Christmas my true love sent to me
     A partridge in a pear tree.
