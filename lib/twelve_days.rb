@@ -30,7 +30,7 @@ class ChristmasDayFactory
     when 4 
       ChristmasDayFour.new(day_number: 4, gift: "calling birds")
     when 5 
-      ChristmasDayFive.new(day_number: 5, gift: "golden rings")
+      ChristmasDayFive.new(day_number: 5, gift: "playstations")
     when 6
       ChristmasDaySix.new(day_number: 6, gift: "geese a-laying")
     when 7 
