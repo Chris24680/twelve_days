@@ -4,24 +4,6 @@ require 'minitest/pride'
 require_relative '../lib/twelve_days'
 
 class TwelveDaysTest < Minitest::Test
-  def test_the_first_line
-    expected =
-      "A partridge in a pear tree"
-    assert_equal expected, TwelveDays.new.line(1)
-  end
-
-  def test_another_line
-    expected =
-      "Two turtle doves"
-    assert_equal expected, TwelveDays.new.line(2)
-  end
-
-  def test_a_third_line
-    expected =
-      "Three french hens"
-    assert_equal expected, TwelveDays.new.line(3)
-  end
-
   def test_verse_1
     expected =
       "On the first day of Christmas my true love sent to me\n" +
